@@ -22,11 +22,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Command ran successfully",
+    "text": "Information for Meal {{Select_Meal_ID.text}}:",
     "key": "fpl8dbfp3r",
     "isDeprecated": false,
     "rightColumn": 41,
