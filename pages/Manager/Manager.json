@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 850,
+          "bottomRow": 700,
           "containerStyle": "none",
           "snapRows": 84,
           "parentRowSpace": 1,
@@ -25,7 +25,27 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Manager_Get_All_BOH",
+              "name": "Get_All_BOH",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Manager_Get_All_FOH",
+              "name": "Get_All_FOH",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Manager",
         "deleted": false,
