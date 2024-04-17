@@ -3,6 +3,10 @@
     {
       "id": "Front of House",
       "isDefault": true
+    },
+    {
+      "id": "Manager",
+      "isDefault": false
     }
   ],
   "viewMode": false,
