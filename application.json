@@ -15,6 +15,9 @@
   },
   "color": "#E4D8CC",
   "icon": "open-new-tab",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
