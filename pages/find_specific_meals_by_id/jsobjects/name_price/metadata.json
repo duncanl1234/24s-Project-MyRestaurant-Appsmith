@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "name_price",
+    "pageId": "find_specific_meals_by_id",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "mealName",
+        "value": "\"\""
+      },
+      {
+        "name": "mealPrice",
+        "value": "0"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "find_specific_meals_by_id_name_price",
+  "deleted": false,
+  "gitSyncId": "66200955b9b235042a544f33_66204bec7b05a055238b1e12"
+}

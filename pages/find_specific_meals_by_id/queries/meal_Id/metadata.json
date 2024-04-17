@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "orders",
+    "name": "meal_Id",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/o/orders"
+        "url": "web:4000/m/meals/mealId"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "find_specific_meals_by_id",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T17:41:21Z"
+    "createdAt": "2024-04-17T18:02:14Z"
   },
-  "id": "Page1_orders",
+  "id": "find_specific_meals_by_id_meal_Id",
   "deleted": false,
-  "gitSyncId": "66200955b9b235042a544f33_662009c1b9b235042a544f38"
+  "gitSyncId": "66200955b9b235042a544f33_66200ea6b9b235042a544f42"
 }
