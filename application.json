@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "manager_portal",
+      "id": "Manager_Meals_Portal",
       "isDefault": true
     },
     {
@@ -10,6 +10,14 @@
     },
     {
       "id": "FOH_Orders_Portal",
+      "isDefault": false
+    },
+    {
+      "id": "Manager_FOH_Portal",
+      "isDefault": false
+    },
+    {
+      "id": "Manager_BOH_Portal",
       "isDefault": false
     }
   ],
