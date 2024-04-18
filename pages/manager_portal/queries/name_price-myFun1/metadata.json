@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "find_specific_meals_by_id",
-    "collectionId": "find_specific_meals_by_id_name_price",
+    "pageId": "manager_portal",
+    "collectionId": "manager_portal_name_price",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -44,7 +44,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T22:33:20Z"
   },
-  "id": "find_specific_meals_by_id_name_price.myFun1",
+  "id": "manager_portal_name_price.myFun1",
   "deleted": false,
   "gitSyncId": "66200955b9b235042a544f33_66204e307b05a055238b1e14"
 }
