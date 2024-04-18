@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Front of House",
+      "id": "manager_portal",
       "isDefault": true
     }
   ],
@@ -15,12 +15,6 @@
   },
   "color": "#E4D8CC",
   "icon": "open-new-tab",
-  "unpublishedAppLayout": {
-    "type": "DESKTOP"
-  },
-  "publishedAppLayout": {
-    "type": "DESKTOP"
-  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
