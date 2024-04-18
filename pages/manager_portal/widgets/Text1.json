@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
-    "bottomRow": 9,
+    "topRow": 0,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.828125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 41,
+    "leftColumn": 19,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "MyRestaurant: Manager's Portal",
     "key": "wdj0fkonop",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 59,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "6cb4t3rs8r",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 2,
     "responsiveBehavior": "fill",
-    "originalTopRow": 1,
+    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 27,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 9,
+    "originalBottomRow": 5,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }
