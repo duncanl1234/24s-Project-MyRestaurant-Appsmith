@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{Update_table.run().then(() => {\n  showAlert('Table updated Successfully!!', '');\n  Get_Tables.run();\n});}}",
-    "topRow": 1,
+    "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 38,
+    "leftColumn": 34,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -128,7 +128,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 50,
+    "originalBottomRow": 49,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -232,9 +232,9 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 0,
-                "isDisabled": true,
+                "isDisabled": false,
                 "sourceData": "9752",
-                "fieldType": "Text Input"
+                "fieldType": "Number Input"
             }
         },
         "position": -1,
@@ -259,7 +259,7 @@
     },
     "dynamicPropertyPathList": [{"key": "schema.__root_schema__.children.isReserved.defaultValue"}],
     "displayName": "JSON Form",
-    "bottomRow": 50,
+    "bottomRow": 49,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Update Table Reservation",
@@ -273,7 +273,7 @@
     "key": "davxc5typa",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 59,
     "widgetId": "f20jzow0nj",
     "minWidth": 450,
     "parentId": "0",
@@ -282,7 +282,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 1,
+    "originalTopRow": 0,
     "mobileLeftColumn": 32,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

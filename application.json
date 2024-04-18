@@ -5,7 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "FOH_Portal",
+      "id": "FOH_Table_Portal",
+      "isDefault": false
+    },
+    {
+      "id": "FOH_Orders_Portal",
       "isDefault": false
     }
   ],

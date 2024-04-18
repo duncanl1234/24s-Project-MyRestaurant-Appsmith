@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "FOH_Portal",
-    "slug": "foh-portal",
+    "name": "FOH_Orders_Portal",
+    "slug": "foh-orders-portal",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 500,
+          "bottomRow": 1160,
           "containerStyle": "none",
           "snapRows": 84,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "FOH_Portal_Get_Tables",
-              "name": "Get_Tables",
+              "id": "FOH_Orders_Portal_Get_Meals",
+              "name": "Get_Meals",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "FOH_Portal",
+        "id": "FOH_Orders_Portal",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662169fbc0bf0f4cfdee565d_66216a16c0bf0f4cfdee5668"
+  "gitSyncId": "662169fbc0bf0f4cfdee565d_662179d7c0bf0f4cfdee567b"
 }
