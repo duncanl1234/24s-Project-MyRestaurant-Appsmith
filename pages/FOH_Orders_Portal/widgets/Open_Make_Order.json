@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 61,
     "widgetName": "Open_Make_Order",
-    "onClick": "{{showModal('Modal1');}}",
+    "onClick": "{{showModal('Create_Modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
