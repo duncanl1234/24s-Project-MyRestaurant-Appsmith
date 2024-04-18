@@ -1,0 +1,289 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "borderColor": "#E0DEDE",
+    "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+    "onSubmit": "{{Update_table.run().then(() => {\n  showAlert('Table updated Successfully!!', '');\n  Get_Tables.run();\n});}}",
+    "topRow": 1,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 38,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "submitButtonStyles.buttonColor"},
+        {"key": "submitButtonStyles.borderRadius"},
+        {"key": "resetButtonStyles.buttonColor"},
+        {"key": "resetButtonStyles.borderRadius"},
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.fohId.defaultValue"},
+        {"key": "schema.__root_schema__.children.fohId.accentColor"},
+        {"key": "schema.__root_schema__.children.fohId.borderRadius"},
+        {"key": "schema.__root_schema__.children.isReserved.defaultValue"},
+        {"key": "schema.__root_schema__.children.isReserved.accentColor"},
+        {"key": "schema.__root_schema__.children.numSeats.defaultValue"},
+        {"key": "schema.__root_schema__.children.numSeats.accentColor"},
+        {"key": "schema.__root_schema__.children.numSeats.borderRadius"},
+        {"key": "schema.__root_schema__.children.tableNum.defaultValue"},
+        {"key": "schema.__root_schema__.children.tableNum.accentColor"},
+        {"key": "schema.__root_schema__.children.tableNum.borderRadius"},
+        {"key": "schema.__root_schema__.defaultValue"},
+        {"key": "schema.__root_schema__.borderRadius"},
+        {"key": "schema.__root_schema__.cellBorderRadius"},
+        {"key": "schema.__root_schema__.children.isReserved.borderRadius"}
+    ],
+    "showReset": true,
+    "flexVerticalAlignment": "start",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": true,
+    "resetButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Layout"
+    ],
+    "isLoading": false,
+    "submitButtonLabel": "Submit",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 50,
+    "useSourceData": false,
+    "schema": {"__root_schema__": {
+        "labelTextSize": "0.875rem",
+        "identifier": "__root_schema__",
+        "boxShadow": "none",
+        "isRequired": false,
+        "isCustomField": false,
+        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+        "dataType": "object",
+        "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+        "accessor": "__root_schema__",
+        "isVisible": true,
+        "label": "",
+        "originalIdentifier": "__root_schema__",
+        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+        "children": {
+            "numSeats": {
+                "labelTextSize": "0.875rem",
+                "identifier": "numSeats",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.numSeats))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "dataType": "number",
+                "accessor": "numSeats",
+                "isVisible": true,
+                "label": "Num Seats",
+                "originalIdentifier": "numSeats",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 2,
+                "isDisabled": true,
+                "sourceData": 4,
+                "fieldType": "Number Input"
+            },
+            "isReserved": {
+                "labelTextSize": "0.875rem",
+                "identifier": "isReserved",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.isReserved))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "dataType": "number",
+                "accessor": "isReserved",
+                "errorMessage": "Invalid: Must be 0 or 1",
+                "isVisible": true,
+                "label": "Is Reserved",
+                "maxNum": "1",
+                "minNum": "0",
+                "originalIdentifier": "isReserved",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 1,
+                "isDisabled": false,
+                "sourceData": 1,
+                "fieldType": "Number Input"
+            },
+            "tableNum": {
+                "labelTextSize": "0.875rem",
+                "identifier": "tableNum",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.tableNum))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "dataType": "number",
+                "accessor": "tableNum",
+                "isVisible": true,
+                "label": "Table Num",
+                "originalIdentifier": "tableNum",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 3,
+                "isDisabled": true,
+                "sourceData": 1,
+                "fieldType": "Number Input"
+            },
+            "fohId": {
+                "labelTextSize": "0.875rem",
+                "identifier": "fohId",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.fohId))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "dataType": "string",
+                "accessor": "fohId",
+                "isVisible": true,
+                "label": "Foh Id",
+                "originalIdentifier": "fohId",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Update_Table.sourceData, Update_Table.formData, Update_Table.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 0,
+                "isDisabled": true,
+                "sourceData": "9752",
+                "fieldType": "Text Input"
+            }
+        },
+        "position": -1,
+        "isDisabled": false,
+        "sourceData": {
+            "numSeats": 4,
+            "isReserved": 1,
+            "tableNum": 1,
+            "fohId": "9752"
+        },
+        "cellBoxShadow": "none",
+        "fieldType": "Object"
+    }},
+    "needsErrorInfo": false,
+    "mobileBottomRow": 42,
+    "widgetName": "Update_Table",
+    "submitButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [{"key": "schema.__root_schema__.children.isReserved.defaultValue"}],
+    "displayName": "JSON Form",
+    "bottomRow": 50,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Update Table Reservation",
+    "hideCard": false,
+    "mobileRightColumn": 57,
+    "parentColumnSpace": 22.546875,
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
+    "borderWidth": "1",
+    "sourceData": "{{AllTables.selectedRow}}",
+    "resetButtonLabel": "Reset",
+    "key": "davxc5typa",
+    "backgroundColor": "#fff",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "widgetId": "f20jzow0nj",
+    "minWidth": 450,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 1,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 1,
+    "mobileLeftColumn": 32,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

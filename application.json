@@ -3,6 +3,10 @@
     {
       "id": "manager_portal",
       "isDefault": true
+    },
+    {
+      "id": "FOH_Portal",
+      "isDefault": false
     }
   ],
   "viewMode": false,
