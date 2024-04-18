@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{JSONForm1.formData}}",
+      "body": "{{Update_Meal.formData}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -57,8 +57,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSONForm1.formData",
-      "Table1.selectedRow[\"mealId\"]"
+      "Table1.selectedRow[\"mealId\"]",
+      "Update_Meal.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
