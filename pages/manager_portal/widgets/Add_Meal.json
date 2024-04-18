@@ -172,7 +172,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.price))(Add_Meal.sourceData, Add_Meal.formData, Add_Meal.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Add_Meal.sourceData, Add_Meal.formData, Add_Meal.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "price",
                 "isVisible": true,
                 "label": "Price",
@@ -183,8 +183,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 22,
+                "fieldType": "Number Input"
             },
             "name": {
                 "labelTextSize": "0.875rem",
