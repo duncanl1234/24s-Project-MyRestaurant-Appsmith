@@ -3,6 +3,26 @@
     {
       "id": "Manager Meals Portal",
       "isDefault": true
+    },
+    {
+      "id": "FOH_Table_Portal",
+      "isDefault": false
+    },
+    {
+      "id": "FOH_Orders_Portal",
+      "isDefault": false
+    },
+    {
+      "id": "BOH_Ingredients_Portal",
+      "isDefault": false
+    },
+    {
+      "id": "BOH_AddDelete_Portal",
+      "isDefault": false
+    },
+    {
+      "id": "BOH_Update_Portal",
+      "isDefault": false
     }
   ],
   "viewMode": false,
