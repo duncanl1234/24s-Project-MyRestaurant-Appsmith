@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "name_price",
-    "pageId": "Manager_Meals_Portal",
+    "pageId": "Manager Meals Portal",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +18,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Manager_Meals_Portal_name_price",
+  "id": "Manager Meals Portal_name_price",
   "deleted": false,
   "gitSyncId": "66200955b9b235042a544f33_66204bec7b05a055238b1e12"
 }

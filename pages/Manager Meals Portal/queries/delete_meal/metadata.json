@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "var_meal_id",
+    "name": "delete_meal",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Manager_Meals_Portal",
+    "pageId": "Manager Meals Portal",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{Delete_Meal.formData}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "DELETE",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -41,11 +41,14 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
+      {
+        "key": "body"
+      },
       {
         "key": "path"
       }
@@ -54,15 +57,16 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "Delete_Meal.formData",
       "Table1.selectedRow[\"mealId\"]"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T17:40:43Z"
+    "createdAt": "2024-04-18T16:12:50Z"
   },
-  "id": "Manager_Meals_Portal_var_meal_id",
+  "id": "Manager Meals Portal_delete_meal",
   "deleted": false,
-  "gitSyncId": "66200955b9b235042a544f33_6620099bb9b235042a544f36"
+  "gitSyncId": "66200955b9b235042a544f33_662146826ec9d524753909f5"
 }

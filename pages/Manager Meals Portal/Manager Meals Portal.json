@@ -1,6 +1,6 @@
 {
   "unpublishedPage": {
-    "name": "Manager_Meals_Portal",
+    "name": "Manager Meals Portal",
     "slug": "manager-meals-portal",
     "layouts": [
       {
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Manager_Meals_Portal_meals",
+              "id": "Manager Meals Portal_meals",
               "name": "meals",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -40,7 +40,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Manager_Meals_Portal",
+        "id": "Manager Meals Portal",
         "deleted": false,
         "policies": [],
         "userPermissions": []

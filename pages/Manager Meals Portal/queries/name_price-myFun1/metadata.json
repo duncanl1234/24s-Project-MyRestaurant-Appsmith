@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Manager_Meals_Portal",
-    "collectionId": "Manager_Meals_Portal_name_price",
+    "pageId": "Manager Meals Portal",
+    "collectionId": "Manager Meals Portal_name_price",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -44,7 +44,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-19T02:23:21Z"
   },
-  "id": "Manager_Meals_Portal_name_price.myFun1",
+  "id": "Manager Meals Portal_name_price.myFun1",
   "deleted": false,
   "gitSyncId": "66200955b9b235042a544f33_6621d599a9dbe4073a8568fd"
 }

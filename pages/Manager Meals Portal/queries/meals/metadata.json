@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Manager_Meals_Portal",
+    "pageId": "Manager Meals Portal",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T17:50:07Z"
   },
-  "id": "Manager_Meals_Portal_meals",
+  "id": "Manager Meals Portal_meals",
   "deleted": false,
   "gitSyncId": "66200955b9b235042a544f33_66200bcfb9b235042a544f3e"
 }
