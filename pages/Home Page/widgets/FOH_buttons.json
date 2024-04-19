@@ -18,7 +18,7 @@
         "groupButton1": {
             "onClick": "{{navigateTo('manager_meals_portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "heart",
+            "iconName": "join-table",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
@@ -32,7 +32,7 @@
         "groupButton2": {
             "onClick": "{{navigateTo('manager_foh_portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "add",
+            "iconName": "shopping-cart",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},

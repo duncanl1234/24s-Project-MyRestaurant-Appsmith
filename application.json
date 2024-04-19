@@ -1,15 +1,15 @@
 {
   "pages": [
     {
-      "id": "manager_meals_portal",
+      "id": "Manager Meals Portal",
       "isDefault": false
     },
     {
-      "id": "manager_foh_portal",
+      "id": "Manager FOH Portal",
       "isDefault": false
     },
     {
-      "id": "manager_boh_portal",
+      "id": "Manager BOH Portal",
       "isDefault": false
     },
     {

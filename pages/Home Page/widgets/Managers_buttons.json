@@ -18,7 +18,7 @@
         "groupButton3": {
             "onClick": "{{navigateTo('manager_boh_portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "more",
+            "iconName": "person",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {
@@ -67,7 +67,7 @@
         "groupButton1": {
             "onClick": "{{navigateTo('manager_meals_portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "heart",
+            "iconName": "glass",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
@@ -81,7 +81,7 @@
         "groupButton2": {
             "onClick": "{{navigateTo('manager_foh_portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "add",
+            "iconName": "book",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
