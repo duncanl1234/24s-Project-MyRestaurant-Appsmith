@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "manager_portal",
-    "slug": "manager-portal",
+    "name": "manager_meals_portal",
+    "slug": "manager-meals-portal",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 690,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "manager_portal_meals",
+              "id": "manager_meals_portal_meals",
               "name": "meals",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -40,7 +40,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "manager_portal",
+        "id": "manager_meals_portal",
         "deleted": false,
         "policies": [],
         "userPermissions": []
