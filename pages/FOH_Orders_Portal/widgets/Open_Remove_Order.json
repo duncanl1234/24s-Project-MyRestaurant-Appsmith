@@ -4,6 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 9,
     "widgetName": "Open_Remove_Order",
+    "onClick": "{{showModal('Delete_modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -19,7 +20,7 @@
     "mobileRightColumn": 58,
     "animateLoading": true,
     "parentColumnSpace": 22.546875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 41,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
