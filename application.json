@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "manager_meals_portal",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "manager_foh_portal",
@@ -11,6 +11,10 @@
     {
       "id": "manager_boh_portal",
       "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": true
     }
   ],
   "viewMode": false,
