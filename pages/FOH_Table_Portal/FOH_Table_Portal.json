@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Manager Meals Portal",
-    "slug": "manager-meals-portal",
+    "name": "FOH_Table_Portal",
+    "slug": "foh-table-portal",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 860,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 84,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 860,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Manager Meals Portal_meals",
-              "name": "meals",
+              "id": "FOH_Table_Portal_Get_Tables",
+              "name": "Get_Tables",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -40,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Manager Meals Portal",
+        "id": "FOH_Table_Portal",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661d7092e33b9a1a6a4b88fb_661d7092e33b9a1a6a4b88fd"
+  "gitSyncId": "662169fbc0bf0f4cfdee565d_66216a16c0bf0f4cfdee5668"
 }

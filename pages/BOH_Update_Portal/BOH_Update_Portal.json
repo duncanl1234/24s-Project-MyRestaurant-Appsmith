@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Manager Meals Portal",
-    "slug": "manager-meals-portal",
+    "name": "BOH_Update_Portal",
+    "slug": "boh-update-portal",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 750,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 65,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Manager Meals Portal_meals",
-              "name": "meals",
+              "id": "BOH_Update_Portal_ingredients",
+              "name": "ingredients",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -40,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Manager Meals Portal",
+        "id": "BOH_Update_Portal",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661d7092e33b9a1a6a4b88fb_661d7092e33b9a1a6a4b88fd"
+  "gitSyncId": "66200955b9b235042a544f33_6621d7bda9dbe4073a856906"
 }

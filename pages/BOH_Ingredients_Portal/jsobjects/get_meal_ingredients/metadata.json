@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "get_meal_ingredients",
+    "pageId": "BOH_Ingredients_Portal",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "mealName",
+        "value": "\"\""
+      },
+      {
+        "name": "mealPrice",
+        "value": "0"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "BOH_Ingredients_Portal_get_meal_ingredients",
+  "deleted": false,
+  "gitSyncId": "66200955b9b235042a544f33_6621d9f3a9dbe4073a856910"
+}
