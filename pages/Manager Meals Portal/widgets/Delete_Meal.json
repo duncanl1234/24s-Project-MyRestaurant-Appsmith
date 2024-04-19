@@ -125,7 +125,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 74,
+    "originalBottomRow": 67,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -230,7 +230,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 74,
+    "bottomRow": 67,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Delete Menu Item",

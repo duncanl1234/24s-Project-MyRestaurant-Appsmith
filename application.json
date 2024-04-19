@@ -15,6 +15,26 @@
     {
       "id": "Home Page",
       "isDefault": true
+    },
+    {
+      "id": "FOH Tables Portal",
+      "isDefault": false
+    },
+    {
+      "id": "FOH Orders Portal",
+      "isDefault": false
+    },
+    {
+      "id": "BOH Inventory Portal",
+      "isDefault": false
+    },
+    {
+      "id": "BOH Add Portal",
+      "isDefault": false
+    },
+    {
+      "id": "BOH Delete Portal",
+      "isDefault": false
     }
   ],
   "viewMode": false,

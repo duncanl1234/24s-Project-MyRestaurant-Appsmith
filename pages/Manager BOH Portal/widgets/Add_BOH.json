@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 76,
+    "originalBottomRow": 82,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -353,7 +353,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 5,
+    "originalTopRow": 8,
     "mobileLeftColumn": 19,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

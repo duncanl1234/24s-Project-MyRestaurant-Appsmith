@@ -16,9 +16,9 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton3": {
-            "onClick": "{{navigateTo('manager_boh_portal', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('BOH Delete Portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "more",
+            "iconName": "ban-circle",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {
@@ -58,35 +58,35 @@
                 }
             },
             "index": 2,
-            "label": "",
+            "label": "Delete Item",
             "id": "groupButton3",
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('manager_meals_portal', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('BOH Inventory Portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "heart",
+            "iconName": "annotation",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "",
+            "label": "Inventory",
             "id": "groupButton1",
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('manager_foh_portal', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('BOH Add Portal', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "add",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 1,
-            "label": "",
+            "label": "Add Item",
             "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,
